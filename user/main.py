@@ -1,9 +1,6 @@
+# pig latin converter
+pig = 'ay'
 
-xString = input("Enter a number: ")
-x = int(xString)
-yString = input("Enter a second number: ")
-y = int(yString)
-print('The sum of ', x, ' and ', y, ' is ', x+y, '.', sep='')
-
-
-
+input("Enter any word")
+ first == word[0]
+if first == ('a' or 'e' or 'i' or 'o' or 'u'):
