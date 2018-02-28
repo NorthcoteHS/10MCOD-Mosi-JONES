@@ -1,8 +1,23 @@
-# pig latin translator  
-consonant = 'B' or 'C' or 'D' or 'F' or 'G' or 'H' or ' J' or 'K' or 'L' or 'M' or 'N' or 'P' or 'Q' or 'R' or 'S' or 'T' or 'V' or 'W' or 'X' or 'Y' or 'Z'
-pig = 'ay'
+again= 'yes'
+while again=='yes':
 
-print "Type a word"
-if word(0) = consonant 
+ question= input ('Ask a question: ')
 
 
+ from random import randint
+ number= (randint(0, 4))
+
+
+ if number == 1:
+  print ('Yes')
+ if number ==2:
+  print ('No')
+ if number== 3:  
+  print ('Maybe')
+ if number== 4:
+  print ('Ask again later')
+ 
+ again= input('would you like to go again?')
+ 
+ while again== 'no':
+   print('goodbye')
